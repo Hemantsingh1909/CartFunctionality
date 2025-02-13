@@ -1,0 +1,83 @@
+/* Footer Container */
+.container {
+    width: 100%;
+    background-color: #2B2B2B; /* Dark background for contrast */
+    padding: 20px 0;
+    position: static;
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* Footer Main */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff; /* White text */
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Social Button Container */
+  .buttonContainer {
+    display: flex;
+    gap: 20px; /* Space between icons */
+    margin-bottom: 15px;
+  }
+  .socialButton a{
+    color:#ffffff;
+  }
+  .socialButton a:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  /* Social Buttons */
+  .socialButton {
+    background: transparent;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .socialButton:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+  }
+
+  /* Copyright Text */
+  .copyright {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+
+  @media (max-width: 768px) {
+    .container{
+        position: static;
+    }
+    .buttonContainer {
+      gap: 8px;
+    }
+  
+    .socialButton {
+      width: 35px;
+      height: 35px;
+      font-size: 16px;
+    }
+  
+    .copyright {
+      font-size: 10px;
+    }
+  }

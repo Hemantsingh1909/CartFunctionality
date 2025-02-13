@@ -1,0 +1,129 @@
+.cartContainer {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .itemsColumn {
+    flex: 3;
+  }
+  
+  .checkoutColumn {
+    flex: 1;
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+  }
+  .priceDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    padding: 10px;
+  }
+  .productDetails {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .productImage {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .productInfo {
+    flex: 1;
+  }
+  
+  .productName {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .productDescription {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0.5rem 0;
+  }
+  
+  .productPrice {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .controlsGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .quantityControls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .quantityControls button {
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .checkoutSummary {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .summaryRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    color: #666;
+  }
+  
+  .totalRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .checkoutButton {
+    width: 100%;
+    padding: 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .checkoutButton:hover {
+    background: #0056b3;
+  }
+  
+  .removeButton {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .cartContainer {
+        display: flex;
+        flex-direction: column;
+
+  }
+}

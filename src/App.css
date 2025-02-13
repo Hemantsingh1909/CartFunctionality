@@ -12,6 +12,25 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* App Container */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main Content Wrapper */
+.main-content {
+  flex: 1;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  margin-top: auto; /* Pushes footer to bottom */
+}
 
 .App-header {
   background-color: #282c34;
