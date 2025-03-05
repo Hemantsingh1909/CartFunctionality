@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CartFunctionality/static/css/main.8fdf1185.css",
-    "main.js": "/CartFunctionality/static/js/main.48fb1393.js",
+    "main.js": "/CartFunctionality/static/js/main.a388a097.js",
     "static/js/488.bee6aa67.chunk.js": "/CartFunctionality/static/js/488.bee6aa67.chunk.js",
     "static/media/Speaker.jpeg": "/CartFunctionality/static/media/Speaker.29a2108e41425e207df6.jpeg",
     "static/media/Smartwatch.jpeg": "/CartFunctionality/static/media/Smartwatch.7ec21d3ae1913e2ed6fd.jpeg",
@@ -16,11 +16,11 @@
     "static/media/Tech products.png": "/CartFunctionality/static/media/Tech products.a97b867d5eae2c341412.png",
     "index.html": "/CartFunctionality/index.html",
     "main.8fdf1185.css.map": "/CartFunctionality/static/css/main.8fdf1185.css.map",
-    "main.48fb1393.js.map": "/CartFunctionality/static/js/main.48fb1393.js.map",
+    "main.a388a097.js.map": "/CartFunctionality/static/js/main.a388a097.js.map",
     "488.bee6aa67.chunk.js.map": "/CartFunctionality/static/js/488.bee6aa67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8fdf1185.css",
-    "static/js/main.48fb1393.js"
+    "static/js/main.a388a097.js"
   ]
 }
