@@ -9,6 +9,7 @@ import speaker from "./assets/Speaker.jpeg";
 import monitor from "./assets/Monitor.jpeg";
 import powerbank from "./assets/Powerbank.jpeg";
 
+
 export const products = [
   {
     id: 1,
