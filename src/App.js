@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";  // ❌ Remove Router
 import { CartProvider } from "./context/CartContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"; // Import Footer
@@ -9,7 +9,6 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
       <CartProvider>
         <div className="app-container">
           <Navbar />
@@ -25,7 +24,6 @@ function App() {
           </footer>
         </div>
       </CartProvider>
-    </Router>
   );
 }
 
