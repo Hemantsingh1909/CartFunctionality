@@ -1,0 +1,8 @@
+{
+    "name": "Your App",
+    "short_name": "App",
+    "icons": [],
+    "start_url": "/",
+    "display": "standalone"
+  }
+  

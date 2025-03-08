@@ -75,7 +75,7 @@ export const products = [
     image: monitor,
   },
   {
-    id: 9,
+    id: 10,
     name: "Xiaomi Power Bank 4i",
     description: "20000mAh 33W Super Fast Charging PD Triple Output Ports|Classic Black|Supports Android,Apple, Tablets, Earbuds",
     price: 399,
