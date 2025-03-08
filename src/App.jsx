@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";  // ❌ Remove Router
+import { Routes, Route } from "react-router-dom";  
 import { CartProvider } from "./context/CartContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"; // Import Footer
