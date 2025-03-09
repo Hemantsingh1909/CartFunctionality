@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom"; // Import useLocation
 import { useCart } from "../context/CartContext";
 import { FaShoppingCart } from "react-icons/fa";
 import styles from "../styles/Navbar.module.css";
-import logo from "/assets/Logo.png";
+import logo from "../assets/Logo.png";
 
 const Navbar = () => {
   const { cart } = useCart();
