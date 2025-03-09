@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom'; // Import useLocation
-import { useCart } from '../context/CartContext';
+import React from "react";
+import { Link, useLocation } from "react-router-dom"; // Import useLocation
+import { useCart } from "../context/CartContext";
 import { FaShoppingCart } from "react-icons/fa";
-import styles from '../styles/Navbar.module.css';
-import logo from '../assets/Tech products.png'
+import styles from "../styles/Navbar.module.css";
+import logo from "/assets/Logo.png";
 
 const Navbar = () => {
   const { cart } = useCart();
@@ -13,7 +13,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </Link>
       <Link to="/cart" className={styles.cartIcon}>
-        <FaShoppingCart/>
+        <FaShoppingCart />
         <span className={styles.cartCount}>{cart.length}</span>
       </Link>
     </nav>

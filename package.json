@@ -1,19 +1,23 @@
 {
-  "homepage": "https://hemantsingh1909.github.io/CartFunctionality/#/",
   "name": "cart_functionality",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hemantsingh1909.github.io/portfolio/",
   "dependencies": {
+    "@babel/eslint-parser": "^7.26.8",
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.26.6",
     "@babel/plugin-transform-optional-chaining": "^7.25.9",
     "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@sideway/address": "^5.0.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^4.3.4",
     "ajv": "^8.17.1",
     "core-js": "^3.41.0",
     "css-select": "^5.1.0",
     "eslint": "^9.22.0",
+    "eslint-webpack-plugin": "^5.0.0",
     "glob": "^11.0.1",
     "joi": "^17.13.3",
     "lodash.template": "^4.5.0",
@@ -22,20 +26,21 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.2.0",
-    "react-scripts": "^5.0.1",
     "rimraf": "^6.0.1",
     "serialize-javascript": "^6.0.2",
     "svgo": "^3.3.2",
     "uuid": "^11.1.0",
+    "vite": "^6.2.1",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "vercel --prod",
-    "build": "react-scripts build",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
