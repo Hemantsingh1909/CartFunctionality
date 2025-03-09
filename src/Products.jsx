@@ -1,3 +1,14 @@
+import laptopImage from "./assets/Laptop.jpeg";
+import phoneImage from "./assets/Phone.jpeg";
+import headphonesImage from "./assets/Headphones.jpeg";
+import smartwatchImage from "./assets/Smartwatch.jpeg";
+import tabletImage from "./assets/Tablet.jpeg";
+import gamingConsoleImage from "./assets/GamingConsole.jpeg";
+import cameraImage from "./assets/Camera.jpeg";
+import speakerImage from "./assets/Speaker.jpeg";
+import monitorImage from "./assets/Monitor.jpeg";
+import powerbankImage from "./assets/Powerbank.jpeg";
+
 export const products = [
   {
     id: 1,
@@ -5,7 +16,7 @@ export const products = [
     description:
       "Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID",
     price: 999,
-    image: "/assets/Laptop.jpeg",
+    image: laptopImage,
   },
   {
     id: 2,
@@ -13,7 +24,7 @@ export const products = [
     description:
       "iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Teal",
     price: 699,
-    image: "/assets/Phone.jpeg",
+    image: phoneImage,
   },
   {
     id: 3,
@@ -21,7 +32,7 @@ export const products = [
     description:
       "Wireless Noise Cancellation Bluetooth Headphones with Mic, 30 Hours Battery Life, Quick Charge, AUX - Black",
     price: 199,
-    image: "/assets/Headphones.jpeg",
+    image: headphonesImage,
   },
   {
     id: 4,
@@ -29,7 +40,7 @@ export const products = [
     description:
       "Smartwatch with Jet Black Aluminium Case with Black Sport Band- S/M. Fitness Tracker, ECG App, Water Resistant",
     price: 299,
-    image: "/assets/Smartwatch.jpeg",
+    image: smartwatchImage,
   },
   {
     id: 5,
@@ -37,7 +48,7 @@ export const products = [
     description:
       "Liquid Retina Display, 1TB, Landscape 12MP Front Camera / 12MP Back Camera, Wi-Fi 6E, Touch ID, All-Day Battery Life",
     price: 499,
-    image: "/assets/Tablet.jpeg",
+    image: tabletImage,
   },
   {
     id: 6,
@@ -45,7 +56,7 @@ export const products = [
     description:
       "Video Game Console for PC, Magnetic Triggers, Accurate Joysticks, Dual Vibration, Backit LED Buttons, USB Extension Cable",
     price: 499,
-    image: "/assets/GamingConsole.jpeg",
+    image: gamingConsoleImage,
   },
   {
     id: 7,
@@ -53,7 +64,7 @@ export const products = [
     description:
       "Mirrorless With Z DX 16-50mm f/3.5-6.3 VR & Z DX 50-250mm f/4.5-6.3 VR Lens with Additional Battery & 64 GB SD Card",
     price: 799,
-    image: "/assets/Camera.jpeg",
+    image: cameraImage,
   },
   {
     id: 8,
@@ -61,7 +72,7 @@ export const products = [
     description:
       "High-Power Party Speaker with Bluetooth connectivity (Jet bass Booster,Mic/Guitar, USB, CD, Music Center app)",
     price: 149,
-    image: "/assets/Speaker.jpeg",
+    image: speakerImage,
   },
   {
     id: 9,
@@ -69,7 +80,7 @@ export const products = [
     description:
       "(24-inch, Apple M3 chip with 8‑core CPU and 10‑core GPU, 8GB Unified Memory, 256GB) - Silver",
     price: 399,
-    image: "/assets/Monitor.jpeg",
+    image: monitorImage,
   },
   {
     id: 10,
@@ -77,6 +88,6 @@ export const products = [
     description:
       "20000mAh 33W Super Fast Charging PD Triple Output Ports|Classic Black|Supports Android,Apple, Tablets, Earbuds",
     price: 399,
-    image: "/assets/Powerbank.jpeg",
+    image: powerbankImage,
   },
 ];
