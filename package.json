@@ -2,7 +2,6 @@
   "name": "cart_functionality",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hemantsingh1909.github.io/CartFunctionality/",
   "dependencies": {
     "@babel/eslint-parser": "^7.26.8",
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.26.6",
@@ -38,9 +37,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -59,8 +56,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
